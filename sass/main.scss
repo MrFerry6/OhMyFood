@@ -1,16 +1,19 @@
-
+@import ".utils/variables";
+@import ".utils/mixins";
 
 *{
     box-sizing: border-box;
 }
 
 header{
-    font-family: Roboto;
-    font-size: 100px;
+   @include header-format;
 }
+
 main{
-    font-family: Shrikhand;
-    font-size: 150px;
+    background-color: $color-secondary;
+    color: $color-primary;
+    font-family: Roboto;
+    font-size: 50px;
 }
 
   
