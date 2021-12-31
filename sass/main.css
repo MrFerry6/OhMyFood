@@ -1,15 +1,26 @@
+/*COLORS*/
+/*SIZES*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 header {
-  font-family: Roboto;
-  font-size: 100px;
+  font-family: Shrikhand;
+  font-size: 2.7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0rem;
 }
 
 main {
-  font-family: Shrikhand;
-  font-size: 150px;
+  background-color: #FF79DA;
+  color: #9356DC;
+  font-family: Roboto;
+  font-size: 50px;
 }
 /*# sourceMappingURL=main.css.map */
