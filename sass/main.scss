@@ -3,10 +3,20 @@
 *{
     box-sizing: border-box;
 }
+
+header{
+    font-family: Roboto;
+    font-size: 100px;
+}
+main{
+    font-family: Shrikhand;
+    font-size: 150px;
+}
+
   
 @media (min-width: 768px) {
    
 }
-@media (min-width: 769px) {
+@media (min-width: 991px) {
    
 }

@@ -2,4 +2,14 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+header {
+  font-family: Roboto;
+  font-size: 100px;
+}
+
+main {
+  font-family: Shrikhand;
+  font-size: 150px;
+}
 /*# sourceMappingURL=main.css.map */
