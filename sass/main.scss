@@ -2,21 +2,49 @@
 @import ".utils/mixins";
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;    
+    font-family: Roboto;
+    text-align: center;
 }
 
+h1{
+    @include h1-format;
+}
+h2{
+    @include h2-format;
+}
+h3{
+    @include h3-format;
+}
 header{
    @include header-format;
 }
 
-main{
-    background-color: $color-secondary;
-    color: $color-primary;
-    font-family: Roboto;
-    font-size: 50px;
+.search-container{
+    @include Search-format;
+}
+.search-content{
+    &__locator{
+        @include locator-format;
+    }
+    &__icon-locator{
+        margin-right: $margin-right;
+    }
+    &__text-locator{
+        color: $color-text-lighten-medium;
+    }
+    &__title{
+        margin: $margin-top-big;
+    }  
+    &__description{
+        color: $color-text-lighten-medium;
+        margin: $margin-top-bottom-big;
+    }
+    &__button{
+        @include button-format;
+    }
 }
 
-  
 @media (min-width: 768px) {
    
 }
