@@ -2,9 +2,7 @@
 @import ".utils/mixins";
 
 *{
-    box-sizing: border-box;    
-    font-family: Roboto;
-    text-align: center;
+    @include page-format;
 }
 
 h1{
@@ -23,7 +21,7 @@ header{
 .search-container{
     @include Search-format;
 }
-.search-content{
+.search-content{    
     &__locator{
         @include locator-format;
     }
@@ -37,11 +35,31 @@ header{
         margin: $margin-top-big;
     }  
     &__description{
-        color: $color-text-lighten-medium;
-        margin: $margin-top-bottom-big;
+        @include search-title-format;
     }
     &__button{
         @include button-format;
+        &:hover{
+            box-shadow: $botton-shadow-hover;
+        }
+    }
+}
+.how-works-container{
+    @include how-works-container-format;
+}
+.how-works-title{
+    @include how-works-title-format;   
+}
+.how-works-element{
+    @include how-works-element-format;
+    &__step-num{
+        @include how-works-step-num-format;
+    }
+    &__icon{
+        @include how-works-icon-format;
+    }
+    &__step{
+
     }
 }
 
