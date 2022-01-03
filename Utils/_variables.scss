@@ -1,0 +1,48 @@
+
+// Colors
+$color-primary : #9356DC;
+$color-secondary : #FF79DA;
+$color-tertiary : #99E2D0;
+$color-grey-background : #f2f2f2;
+
+$color-back-darken-ligth :  darken($color: $color-grey-background, $amount: 5);
+$color-back-darken-medium :  darken($color: $color-grey-background, $amount: 20);
+$color-text-lighten-medium : lighten($color: black, $amount: 35);
+
+$button-background : linear-gradient($color-secondary,$color-primary);
+
+//Sizes
+
+$all-width : 100%;
+$header-font-size : 2rem;
+$margin-top-bottom-ligth : 0.8rem 0rem;
+$margin-top-bottom-big : 2.5rem 0rem;
+$margin-top-big : 2.5rem 0rem 0rem 0rem;
+$margin-top-light : 0.8rem 0rem 0rem 0rem;
+$margin-bottom-big : 0rem 0rem 2.5rem 0rem;
+$margin-negative-left : 0rem 0rem 0rem -1rem;
+$margin-title :  1.6rem 2rem; 
+$h3-size : 1.2rem;
+$h2-size : 1rem;
+$h1-size : 1.5rem;
+$padding-light : 1.1rem;
+$pading-left-right : 0rem 1rem 0rem 1rem;
+$pading-top-bottom : 1rem 0rem 1rem 0rem;
+    
+    //locator
+    
+    $margin-right : 1rem;
+    $border-locator : 0.2rem 0rem 0rem 0rem;
+
+    //how-work
+
+    $pading-step-num : 0.3rem 0.6rem;
+
+
+
+//decorators
+
+$border-button-radius : 2.5rem;
+$botton-shadow : 1px  2px 10px  lighten($color: black, $amount: 60);
+$botton-shadow-hover : 0.0px 0px 5px  lighten($color: black, $amount: 60);
+

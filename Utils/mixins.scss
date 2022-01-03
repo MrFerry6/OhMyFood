@@ -1,0 +1,98 @@
+@mixin page-format {
+    box-sizing: border-box;    
+    font-family: Roboto;
+    text-align: center;
+}
+
+@mixin h1-format {
+    font-size: $h1-size;
+    font-weight: 900;
+}
+
+@mixin h2-format {
+    font-size: $h2-size;
+    font-weight: 600;
+}
+@mixin h3-format {
+    font-size: $h3-size;
+    font-weight: 100;
+}
+@mixin header-format {
+    font-family: Shrikhand;
+    font-size: $header-font-size;
+    display: flex;
+    justify-content: center;
+    margin: $margin-top-bottom-ligth;
+}
+
+@mixin locator-format {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background: $color-back-darken-ligth;
+    width: $all-width;
+    border-style: solid;
+    border-width: $border-locator;
+    border-color: $color-back-darken-medium;
+}
+@mixin search-title-format {    
+    color: $color-text-lighten-medium;
+    margin: $margin-top-bottom-big;        
+    padding: $pading-left-right;
+}
+@mixin Search-format {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background : $color-grey-background;
+}
+@mixin button-format {
+    margin: $margin-bottom-big;
+    padding: $padding-light;
+    width: 60%;
+    color: white;
+    background: $button-background;
+    font-weight:500;
+    border-radius: $border-button-radius;
+    border-style: none;    
+    box-shadow: $botton-shadow;
+}
+
+@mixin how-works-container-format {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: $margin-top-bottom-ligth;
+    padding: $pading-left-right;
+}
+@mixin how-works-title-format {
+    margin: $margin-title;
+}
+@mixin how-works-element-format {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: none;
+    align-self: center;
+    width: 80%;
+    margin: $margin-top-bottom-ligth;
+    border-radius: 25px;
+    background: $color-grey-background;
+    padding: $pading-top-bottom;
+    box-shadow: $botton-shadow;
+}
+@mixin how-works-step-num-format {
+    border-style: none;
+    border-radius: 50%;
+    background-color: $color-primary;
+    color: white;
+    padding: $pading-step-num;
+    margin: $margin-negative-left;
+    font-weight: 100;
+}
+@mixin how-works-icon-format {
+    padding: $pading-left-right;
+    color: $color-text-lighten-medium;
+    font-size: 1.5rem;
+}
