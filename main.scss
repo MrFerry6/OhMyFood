@@ -1,0 +1,71 @@
+@import ".utils/variables";
+@import ".utils/mixins";
+
+*{
+    @include page-format;
+}
+
+h1{
+    @include h1-format;
+}
+h2{
+    @include h2-format;
+}
+h3{
+    @include h3-format;
+}
+header{
+   @include header-format;
+}
+
+.search-container{
+    @include Search-format;
+}
+.search-content{    
+    &__locator{
+        @include locator-format;
+    }
+    &__icon-locator{
+        margin-right: $margin-right;
+    }
+    &__text-locator{
+        color: $color-text-lighten-medium;
+    }
+    &__title{
+        margin: $margin-top-big;
+    }  
+    &__description{
+        @include search-title-format;
+    }
+    &__button{
+        @include button-format;
+        &:hover{
+            box-shadow: $botton-shadow-hover;
+        }
+    }
+}
+.how-works-container{
+    @include how-works-container-format;
+}
+.how-works-title{
+    @include how-works-title-format;   
+}
+.how-works-element{
+    @include how-works-element-format;
+    &__step-num{
+        @include how-works-step-num-format;
+    }
+    &__icon{
+        @include how-works-icon-format;
+    }
+    &__step{
+
+    }
+}
+
+@media (min-width: 768px) {
+   
+}
+@media (min-width: 991px) {
+   
+}
